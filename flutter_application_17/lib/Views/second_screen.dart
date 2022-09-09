@@ -21,26 +21,29 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      backgroundColor: Color.fromARGB(255, 17, 202, 48),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Row(
             children: [
               Text('Name',
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 40,
                     fontWeight: FontWeight.bold,
                   )),
               SizedBox(
                 width: 20,
               ),
               Container(
-                height: 20,
-                width: 200,
+                height: 40,
+                width: 400,
                 color: Colors.purple,
-                child: Text(name!,
-                    style:
-                        TextStyle(fontSize: 20, fontWeight: FontWeight.normal)),
+                child: Center(
+                  child: Text(name!,
+                      style: TextStyle(
+                          fontSize: 20, fontWeight: FontWeight.normal)),
+                ),
               ),
             ],
           ),
@@ -48,20 +51,22 @@ class SecondPage extends StatelessWidget {
             children: [
               Text('Username',
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 40,
                     fontWeight: FontWeight.bold,
                   )),
               SizedBox(
                 width: 20,
               ),
               Container(
-                  height: 20,
-                  width: 200,
-                  color: Colors.yellow,
-                  child: Text(
-                    user!,
-                    style: TextStyle(
-                      fontSize: 20,
+                  height: 40,
+                  width: 400,
+                  color: Colors.white,
+                  child: Center(
+                    child: Text(
+                      user!,
+                      style: TextStyle(
+                        fontSize: 40,
+                      ),
                     ),
                   )),
             ],
@@ -70,15 +75,15 @@ class SecondPage extends StatelessWidget {
             children: [
               Text('Address:',
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 40,
                     fontWeight: FontWeight.bold,
                   )),
               SizedBox(
                 width: 20,
               ),
               Container(
-                  height: 20,
-                  width: 200,
+                  height: 40,
+                  width: 400,
                   color: Colors.blue,
                   child: Text(
                     addr!,
@@ -92,20 +97,20 @@ class SecondPage extends StatelessWidget {
             children: [
               Text('Reason to Join',
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 40,
                     fontWeight: FontWeight.bold,
                   )),
               SizedBox(
                 width: 20,
               ),
               Container(
-                  height: 20,
-                  width: 200,
+                  height: 40,
+                  width: 400,
                   color: Colors.red,
                   child: Text(
                     wjoin!,
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 40,
                     ),
                   )),
             ],
