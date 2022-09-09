@@ -65,7 +65,7 @@ class SecondPage extends StatelessWidget {
                     child: Text(
                       user!,
                       style: TextStyle(
-                        fontSize: 40,
+                        fontSize: 20,
                       ),
                     ),
                   )),
@@ -110,7 +110,7 @@ class SecondPage extends StatelessWidget {
                   child: Text(
                     wjoin!,
                     style: TextStyle(
-                      fontSize: 40,
+                      fontSize: 20,
                     ),
                   )),
             ],
